@@ -1,9 +1,9 @@
-package com.epam.jmp.impl;
+package com.epam.jmp.service.impl;
 
 import com.epam.jmp.dto.BankCard;
 import com.epam.jmp.dto.Subscription;
 import com.epam.jmp.dto.User;
-import com.epam.jmp.service.Service;
+import com.epam.jmp.service.api.service.Service;
 
 import java.util.Collections;
 import java.util.List;
