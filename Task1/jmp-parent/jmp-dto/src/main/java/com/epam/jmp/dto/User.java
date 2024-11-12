@@ -1,6 +1,8 @@
 package com.epam.jmp.dto;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 public class User {
@@ -36,6 +38,21 @@ public class User {
 
     public void setBirthday(LocalDate birthday) {
         this.birthday = birthday;
+    }
+
+    public static List<User> getMockUsers() {
+        var users = new ArrayList<User>();
+        var user1 = new User("Jane", "Doe", LocalDate.of(1988, 1, 12));
+        var user2 = new User("Lucas", "George", LocalDate.of(1944, 5, 14));
+        var user3 = new User("John", "Doe", LocalDate.of(2014, 5, 14));
+        var user4 = new User("Mellody", "Hobson", LocalDate.of(1969, 4, 3));
+        var user5 = new User("Lily", "Woodstone", LocalDate.of(2000, 10, 28));
+        users.add(user1);
+        users.add(user2);
+        users.add(user3);
+        users.add(user4);
+        users.add(user5);
+        return users;
     }
 
     @Override

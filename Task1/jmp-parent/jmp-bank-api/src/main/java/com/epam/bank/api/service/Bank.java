@@ -6,4 +6,6 @@ import com.epam.jmp.dto.User;
 
 public interface Bank {
     BankCard createBankCard(User user, BankCardType cardType);
+
+    BankCard createBankCardWithMethodRef(User user, BankCardType cardType);
 }
