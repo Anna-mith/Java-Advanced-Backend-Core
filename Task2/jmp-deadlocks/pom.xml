@@ -7,10 +7,10 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jmp-experiment</artifactId>
+    <artifactId>jmp-deadlocks</artifactId>
     <packaging>jar</packaging>
 
-    <name>jmp-experiment</name>
+    <name>jmp-deadlocks</name>
     <url>http://maven.apache.org</url>
 
     <properties>
