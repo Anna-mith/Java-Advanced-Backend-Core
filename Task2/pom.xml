@@ -12,7 +12,6 @@
     <modules>
         <module>jmp-experiment</module>
         <module>jmp-deadlocks</module>
-        <module>jmp-deadlocks</module>
     </modules>
 
     <properties>
